@@ -1,0 +1,11 @@
+# SpatialEcology_CampusBirds
+## Code for analyzing one-off surveys in the context of the CAP LTER bird survey dataset
+
+In the summer of 2022, I was hired by Dr. Gwen Iacona to design a study into the effects of a "rewilding" project on the avian community in the area. There are plans to redesign the landscaping around the Gammage Auditorium on ASU's campus to better reflect the native ecosystem of the Sonoran Desert. I designed surveys that replicate most of the protocol of the CAP LTER Bird Survey (https://github.com/CAPLTER/caplter-research-protocols/blob/master/CoreBirding/CoreBirding_PointCount_Protocol.md), but with modified site selection methods that are specific to the Gammage area. A pdf of this protocol as it was written at the time of the surveys can be found at https://github.com/dannyjackson/SpatialEcology_CampusBirds/blob/main/caplter-research-protocols_CoreBirding_PointCount_Protocol.pdf
+
+Survey data was prepared in python and analyzed in R, using the package “vegan.” To contextualize the Gammage ecology within existing analyses of the broader Phoenix area, we analyzed the survey data from Gammage along with several subsets of data from the CAP LTER long term bird survey dataset. We included all sites from the 2008 and 2012 Phoenix Area Social Surveys. Given that species abundance has declined over time in the Phoenix area (Warren et al. 2019), we also included the most recent available CAP LTER surveys, which were from 2019. Following Warren et al. 2019, we split these data into Winter and Spring surveys (Winter: December of the previous year-January; Spring: March-May). The funding for our project required that we conduct the surveys during the month of August, so we also included all surveys from the month of August in the available Phoenix Area bird survey dataset. These were all done by the Ecological Survey of Central Arizona (ESCA) from 2000-2005.
+
+A pdf of the results after the first season of surveys can be found here:
+https://github.com/dannyjackson/SpatialEcology_CampusBirds/blob/main/caplter-research-protocols_CoreBirding_PointCount_Protocol.pdf
+
+This protocol and these scripts will be used again by a future researcher after the rewilding efforts have taken place.
